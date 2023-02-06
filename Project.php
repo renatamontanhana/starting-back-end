@@ -20,7 +20,7 @@
     // Connect to the database
     $servername = "localhost";
     $dbusername = “root”;
-    $dbpassword = “root”;
+    $dbpassword = “”;
     $dbname = "myadmin";
     
     $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
