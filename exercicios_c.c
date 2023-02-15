@@ -239,3 +239,91 @@ int main() {
     printf("\n");
     return 0;
 }
+#include <stdio.h>
+
+int main() {
+  int sum1 = 100 + 50;        // 150 (100 + 50)
+  int sum2 = sum1 + 250;      // 400 (150 + 250)
+  int sum3 = sum2 + sum2;     // 800 (400 + 400)
+  printf("%d\n", sum1);
+  printf("%d\n", sum2);
+  printf("%d\n", sum3);
+  return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+  int x = 10;
+  x += 5;
+  printf("%d", x);
+  return 0;
+}
+Renata Montanhana, [12.02.23 01:02]
+#include <stdio.h>
+
+int main() {
+    // Variable declaration
+    int x = 10;
+    float y = 3.14;
+    char c = 'a';
+    
+    // Printing values to console
+    printf("x = %d\n", x);
+    printf("y = %.2f\n", y);
+    printf("c = %c\n", c);
+    
+    // Conditional statement
+    if (x < 20) {
+        printf("x is less than 20.\n");
+    } else {
+        printf("x is greater than or equal to 20.\n");
+    }
+    
+    return 0;
+}
+
+Renata Montanhana, [12.02.23 01:02]
+#include <stdio.h>
+
+int main() {
+    // Declaration statement
+    int x = 10, y = 20;
+
+    // Expression statement
+    printf("x + y = %d\n", x + y);
+
+    // Control flow statement - if statement
+    if (x < y) {
+        printf("x is less than y.\n");
+    } else if (x > y) {
+        printf("x is greater than y.\n");
+    } else {
+        printf("x is equal to y.\n");
+    }
+
+    // Iteration statement - while loop
+    int i = 0;
+    while (i < 5) {
+        printf("i = %d\n", i);
+        i++;
+    }s
+
+    // Jump statement - break
+    for (int j = 0; j < 10; j++) {
+        if (j == 5) {
+            break;
+        }
+        printf("j = %d\n", j);
+    }
+
+    // Jump statement - continue
+    for (int k = 0; k < 5; k++) {
+        if (k == 2) {
+            continue;
+        }
+        printf("k = %d\n", k);
+    }
+
+    return 0;
+}
