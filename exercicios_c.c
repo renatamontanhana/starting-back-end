@@ -327,3 +327,121 @@ int main() {
 
     return 0;
 }
+
+#include <stdio.h>
+
+int main() {
+  int myNumbers[] = {25, 50, 75, 100};
+  printf("%d", myNumbers[0]);
+ 
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  int myNumbers[] = {25, 50, 75, 100};
+  myNumbers[0] = 33;
+
+  printf("%d", myNumbers[0]);
+ 
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  int myNumbers[] = {25, 50, 75, 100};
+  int i;
+  
+  for (i = 0; i < 4; i++) {
+    printf("%d\n", myNumbers[i]);
+  }
+ 
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  // Declare an array of four integers:
+  int myNumbers[4];
+
+  // Add elements to it
+  myNumbers[0] = 25;
+  myNumbers[1] = 50;
+  myNumbers[2] = 75;
+  myNumbers[3] = 100;
+
+  printf("%d\n", myNumbers[0]);
+ 
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  char greetings[] = "Hello World!";
+  greetings[0] = 'J';
+  printf("%s", greetings);
+
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  char carName[] = "Volvo";
+  int i;
+  
+  for (i = 0; i < 5; ++i) {
+    printf("%c\n", carName[i]);
+  }
+
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  char greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
+  char greetings2[] = "Hello World!";
+  
+  printf("%s\n", greetings);
+  printf("%s\n", greetings2);
+  
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  int time = 20;
+  if (time < 18) {
+    printf("Good day.");
+  } else {
+    printf("Good evening.");
+  }
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  int time = 22;
+  if (time < 10) {
+    printf("Good morning.");
+  } else if (time < 20) {
+    printf("Good day.");
+  } else {
+    printf("Good evening.");
+  }
+  return 0;
+}
+#include <stdio.h>
+
+int main() {
+  int myNum = 10;
+  
+  if (myNum > 0) {
+    printf("The value is a positive number.");
+  } else if (myNum < 0) {
+    printf("The value is a negative number.");
+  } else {
+    printf("The value is 0.");
+  }
+  
+  return 0;
+}
